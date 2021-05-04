@@ -2,9 +2,10 @@
   "name": "test-npm-package",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "type": "module",
   "scripts": {
+    "build": "babel src/ -d lib --ignore **/*.json && babel src/assets --out-dir lib/assets --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,8 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
     "@babel/preset-react": "7.13.13"
   }
 }
