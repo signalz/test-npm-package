@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/signalz/test-npm-package#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash.add": "^3.7.0"
   }
 }
