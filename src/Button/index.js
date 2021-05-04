@@ -6,8 +6,6 @@ import { primary } from "../Colors";
 const Container = styled.div`
   background-color: ${primary};
   font-family: "Lacquer";
-  src: local("Lacquer"),
-    url("../assets/fonts/Lacquer-Regular.ttf") format("truetype");
 `;
 
 const Heading1 = styled.h1`
