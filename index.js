@@ -1,4 +1,4 @@
-import add from "lodash/add";
+import add from "lodash/fp/add";
 
 const test = (a, b) => add(a, b);
 
