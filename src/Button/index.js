@@ -5,11 +5,18 @@ import { primary } from "../Colors";
 
 const Container = styled.div`
   background-color: ${primary};
+  font-family: "Lacquer";
+  src: local("Lacquer"),
+    url("../assets/fonts/Lacquer-Regular.ttf") format("truetype");
+`;
+
+const Heading1 = styled.h1`
+  font-family: "Lacquer";
 `;
 
 const Heading = ({ children }) => (
   <Container>
-    <h1>{children}</h1>
+    <Heading1>{children}</Heading1>
   </Container>
 );
 
